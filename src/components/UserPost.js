@@ -9,7 +9,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { userPostSelector } from "../slices/userPostSlice";
 import { usersSelector } from "../slices/usersSlice";
 
-import { getUserPost } from "../actions/userPostsAction";
+import { getUserPost } from "../actions/userPostAction";
 import { Divider } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({

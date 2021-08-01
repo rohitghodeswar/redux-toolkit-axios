@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getUserPost } from "../actions/userPostsAction";
+import { getUserPost } from "../actions/userPostAction";
 
 const userPostsSlice = createSlice({
     name: "userPosts",

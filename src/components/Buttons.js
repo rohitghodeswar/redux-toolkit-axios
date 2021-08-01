@@ -50,7 +50,7 @@ const Buttons = () => {
     const updateUserBtnClick = () => {
         const data = {
             id: 1,
-            name: "John Wick"
+            name: "Bat-Man"
         };
         dispatch(updateUser(data));
     };

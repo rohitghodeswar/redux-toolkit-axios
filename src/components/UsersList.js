@@ -56,7 +56,7 @@ const UsersList = () => {
             <Grid container>
                 {status === null && (
                     <Grid item xs={12}>
-                        <Typography gutterBottom variant="h5" component="h2">
+                        <Typography gutterBottom variant="h6" component="h3">
                             Please click on GET User button
                         </Typography>
                     </Grid>

@@ -15,8 +15,8 @@ const Header = () => {
     const classes = useStyles();
     return (
         <AppBar position="static">
-            <Typography variant="h4" className={classes.title}>
-                Redux ToolKit Demo - with Axios
+            <Typography variant="h5" className={classes.title}>
+                Redux Toolkit - with Axios
             </Typography>
         </AppBar>
     );
